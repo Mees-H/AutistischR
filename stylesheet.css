@@ -1,0 +1,21 @@
+my-boxdrop {
+    width: 150px;
+    height: 800px;
+    background: yellow;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .animate {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: red;
+    animation: floatin 2s;
+  }
+
+  @keyframes floatin {
+      from {transform: translateY(-800px);}
+      to {transform: translateY(0);}
+  }
